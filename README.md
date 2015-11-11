@@ -1,2 +1,4 @@
 # forfun
 SelectionSort
+InsertionSort
+ShellSort
