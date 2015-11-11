@@ -5,25 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
 
-namespace SelectionSort
+namespace Algorithm
 {
-    class SelectionSort
-    {
-        public static void sort(string[] a)
-        {//将a按升序排序
-            int N = a.Length;
-            for (int i = 0; i < N; i++)
-            {//将a[i]和a[i+1..N]中的最小元素交换
-                int min = i;//最小元素的索引
-                for (int j = i + 1; j < N; j++)
-                {
-                    if (less(a[j],a[min])) min = j;
-                }
-                exch(a,min,i);
-            }
-        }
+    class Sort
+    {        
         //比较两个数的大小
-        private static bool less(string v, string w)
+        public static bool less(string v, string w)
         {
             if (int.Parse(v) < int.Parse(w))
                 return true;
@@ -31,7 +18,7 @@ namespace SelectionSort
                 return false;
         }
         // 交换 a[i] and a[j]
-        private static void exch(Object[] a, int i, int j)
+        public static void exch(Object[] a, int i, int j)
         {
             Object swap = a[i];
             a[i] = a[j];
@@ -62,7 +49,7 @@ namespace SelectionSort
             System.Console.WriteLine("hello world,let's start");
             String[] a = System.Console.ReadLine().Split( );
             sw.Start();
-            SelectionSort.sort(a);
+            ShellSort.sort(a);
             sw.Stop();
             show(a);
             System.Console.WriteLine("\n" + isSorted(a));

@@ -7,7 +7,7 @@
     <ProjectGuid>{47B4A91B-9B49-4621-BA4E-B4613A9C5531}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SelectionSort</RootNamespace>
+    <RootNamespace>Algorithm</RootNamespace>
     <AssemblyName>SelectionSort</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -42,7 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InsertionSort.cs" />
     <Compile Include="SelectionSort.cs" />
+    <Compile Include="ShellSort.cs" />
+    <Compile Include="Sort.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
