@@ -1,4 +1,4 @@
 # forfun
-SelectionSort
-InsertionSort
-ShellSort
+SelectionSort  
+InsertionSort  
+ShellSort  
