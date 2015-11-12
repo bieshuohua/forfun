@@ -49,11 +49,11 @@ namespace Algorithm
             System.Console.WriteLine("hello world,let's start");
             String[] a = System.Console.ReadLine().Split( );
             sw.Start();
-            ShellSort.sort(a);
+            MergeSort.sort(a);
             sw.Stop();
             show(a);
             System.Console.WriteLine("\n" + isSorted(a));
-            System.Console.WriteLine("sort time = " + sw.Elapsed.ToString() + " ms");
+            System.Console.WriteLine("sort time = " + sw.ElapsedMilliseconds.ToString() + " ms");
             System.Console.ReadLine();
         }
 

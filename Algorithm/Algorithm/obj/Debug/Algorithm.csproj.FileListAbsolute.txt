@@ -6,6 +6,8 @@ D:\SelectionSort\SelectionSort\bin\Debug\SelectionSort.pdb
 D:\SelectionSort\Algorithm\bin\Debug\SelectionSort.exe.config
 D:\SelectionSort\Algorithm\obj\Debug\SelectionSort.exe
 D:\SelectionSort\Algorithm\obj\Debug\SelectionSort.pdb
-D:\Algorithm\Algorithm\bin\Debug\SelectionSort.exe.config
-D:\Algorithm\Algorithm\obj\Debug\SelectionSort.exe
-D:\Algorithm\Algorithm\obj\Debug\SelectionSort.pdb
+D:\Algorithm\Algorithm\bin\Debug\Algorithm.exe.config
+D:\Algorithm\Algorithm\bin\Debug\Algorithm.exe
+D:\Algorithm\Algorithm\bin\Debug\Algorithm.pdb
+D:\Algorithm\Algorithm\obj\Debug\Algorithm.exe
+D:\Algorithm\Algorithm\obj\Debug\Algorithm.pdb
