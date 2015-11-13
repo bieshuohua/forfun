@@ -47,7 +47,7 @@ namespace Algorithm
         {
             Stopwatch sw = new Stopwatch();
             System.Console.WriteLine("hello world,let's start");
-            String[] a = System.Console.ReadLine().Split( );
+            String[] a = System.Console.ReadLine().Split();
             sw.Start();
             MergeSort.sort(a);
             sw.Stop();
