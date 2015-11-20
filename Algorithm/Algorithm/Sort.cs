@@ -49,7 +49,7 @@ namespace Algorithm
             System.Console.WriteLine("hello world,let's start");
             String[] a = System.Console.ReadLine().Split();
             sw.Start();
-            MergeSort.sort(a);
+            Quick.sort(a);
             sw.Stop();
             show(a);
             System.Console.WriteLine("\n" + isSorted(a));

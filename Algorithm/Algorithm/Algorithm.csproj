@@ -46,6 +46,7 @@
     <Compile Include="InsertionSort.cs" />
     <Compile Include="MergeSort.cs" />
     <Compile Include="power.cs" />
+    <Compile Include="Quick.cs" />
     <Compile Include="SelectionSort.cs" />
     <Compile Include="ShellSort.cs" />
     <Compile Include="Sort.cs" />
