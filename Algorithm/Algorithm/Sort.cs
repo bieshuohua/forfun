@@ -43,19 +43,19 @@ namespace Algorithm
             for(int i = 0;i < a.Length;i++)
                 System.Console.Write(a[i] + " ");
         }
-        static void Main(string[] args)
-        {
-            Stopwatch sw = new Stopwatch();
-            System.Console.WriteLine("hello world,let's start");
-            String[] a = System.Console.ReadLine().Split();
-            sw.Start();
-            Quick.sort(a);
-            sw.Stop();
-            show(a);
-            System.Console.WriteLine("\n" + isSorted(a));
-            System.Console.WriteLine("sort time = " + sw.ElapsedMilliseconds.ToString() + " ms");
-            System.Console.ReadLine();
-        }
+        //static void Main(string[] args)
+        //{
+        //    Stopwatch sw = new Stopwatch();
+        //    System.Console.WriteLine("hello world,let's start");
+        //    String[] a = System.Console.ReadLine().Split();
+        //    sw.Start();
+        //    Quick.sort(a);
+        //    sw.Stop();
+        //    show(a);
+        //    System.Console.WriteLine("\n" + isSorted(a));
+        //    System.Console.WriteLine("sort time = " + sw.ElapsedMilliseconds.ToString() + " ms");
+        //    System.Console.ReadLine();
+        //}
 
     }
 }

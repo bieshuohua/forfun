@@ -16,3 +16,4 @@ C:\Users\liu\Documents\GitHub\forfun\Algorithm\Algorithm\obj\Debug\Algorithm.exe
 C:\Users\liu\Documents\GitHub\forfun\Algorithm\Algorithm\obj\Debug\Algorithm.pdb
 C:\Users\liu\Documents\GitHub\forfun\Algorithm\Algorithm\bin\Debug\Algorithm.exe
 C:\Users\liu\Documents\GitHub\forfun\Algorithm\Algorithm\bin\Debug\Algorithm.pdb
+C:\Users\liu\Documents\GitHub\forfun\Algorithm\Algorithm\obj\Debug\Algorithm.csprojResolveAssemblyReference.cache
