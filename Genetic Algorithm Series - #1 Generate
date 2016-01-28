@@ -1,0 +1,36 @@
+public string Generate(int length)
+{
+    int count = 0;
+    StringBuilder finalStringBuilder = new StringBuilder();
+    if (length > 29)
+    {
+        int q = length/29;
+        int r = length%29;
+        for (int i = 0; i < q; i++)
+        {
+            finalStringBuilder.Append(AGroup(29));
+        }
+        finalStringBuilder.Append(AGroup(r));
+    }
+    else
+    {
+        finalStringBuilder.Append(AGroup(length));
+    }
+    return finalStringBuilder.ToString();
+}
+public static string AGroup(int len)
+{
+    int count = 0;
+    StringBuilder tempStringBuilder = new StringBuilder();
+    int from = Convert.ToInt32(Math.Pow(2, len));
+    int to = from * 2;
+    int rad = new Random().Next(from, to);
+    while (rad >= 1 && count < len)
+    {
+        int r = rad % 2;
+        tempStringBuilder.Append(r);
+        rad /= 2;
+        count++;
+    }
+    return tempStringBuilder.ToString();
+}
