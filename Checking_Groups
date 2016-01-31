@@ -1,0 +1,46 @@
+public static bool Check(string input)
+{
+    if (string.IsNullOrEmpty(input))
+    {
+        return true;
+    }
+    char[] a = input.ToCharArray();
+    Stack st = new Stack();
+    foreach (char c in a)
+    {
+        switch (c)
+        {
+            case '(':
+            case '[':
+            case '{': st.Push(c); break;
+            case ')':
+            case ']':
+            case '}':
+                if (st.Count > 0)
+                {
+                    char ch = Convert.ToChar(st.Pop());
+                    if (ch == '(' && c == ')' || ch == '[' && c == ']' || ch == '{' && c == '}')
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+                else
+                {
+                    return false;
+                }
+        }
+    }
+    if (st.Count == 0)
+    {
+        Console.Write(input);
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
